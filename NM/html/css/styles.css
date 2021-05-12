@@ -1,0 +1,196 @@
+*{
+    list-style-type: none;
+}
+.row{
+    --bs-gutter-x: 0rem;
+    }
+body{
+    background-color: rgb(102, 7, 102);
+    color: white;
+}
+.navbar{
+    background-color: purple;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    transition: top 0.5s;
+}
+.navbar-brand{
+    padding: 10px;
+    border-radius: 20px;
+}
+.nav-link{
+    padding: 10px;
+    border: 2px solid violet;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+}
+#cuerpoescuadrones{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+/*Carrusel*/
+.carousel{
+    margin-top:20px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+.nav-link:hover{
+    background-color: violet;
+}
+
+.tituloescuadron:hover{
+    background-color: violet;
+}
+
+.tituloescuadron{
+    float:left;
+    border: 2px solid violet;
+    border-radius: 5px;
+    width: 23%;
+    margin:1%;
+    height: auto;
+    padding: auto;
+    position: relative;
+    text-align: center;
+}
+
+.textoescuadron{
+    float:left;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+#cuerpoindex{
+    margin-top: 100px;
+}
+.textopresentacion{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#presentacion h3{
+    float: left;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.textopresentacion img.colegio{
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+#noticias{
+    background-color: rgb(206, 195, 206);
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+}
+#NMfooter{
+    float: left;
+    font-size: 10px;
+    text-align: center;
+}
+.redes{
+    float: right;
+}
+.redes img{
+    width: 30px;
+    height: 30px;
+    padding: auto;
+    text-align: center;
+    border:1px solid black
+}
+
+#noticias h3{
+    text-align: center;
+}
+
+#noticia{
+    color: rgb(242, 242, 242);
+    text-align: justify;
+    width: 90%;
+    height: auto;
+    background-color: rgb(102, 7, 102, 0.5);
+    margin: auto;
+    padding: 10px;
+}
+
+#noticia img{
+    float: left;
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+
+#imagenprincipal{
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    background-color: burlywood;
+    display: block;
+}
+
+.textotienda{
+    width: 80%;
+    height: auto;
+    margin: 10px 10%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+#mascotas, #articulos{
+    text-align: center;
+    padding: auto;
+    width: 80%;
+    height: auto;
+    margin: 20px 10% 20px;
+}
+
+#noticias>h3{
+    color: black;
+}
+.modal-header, .modal-body{
+    background-color: black;
+}
+.modal-body>img{
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.btn-close{
+    background-color: white;
+}
+
