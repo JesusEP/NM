@@ -1,7 +1,7 @@
 *{
     list-style-type: none;
 }
-.row{
+.row, #cuerpoescuadrones{
     --bs-gutter-x: 0rem;
     }
 body{
@@ -40,7 +40,7 @@ body{
 }
 
 .carousel-item img{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .nav-link:hover{
@@ -149,14 +149,13 @@ body{
     margin: 10px;
 }
 
-
 #imagenprincipal{
-    width: 80%;
-    height: 200px;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 100px;
-    background-color: burlywood;
+}
+
+.imagentienda{
+    width: auto;
+    height: auto;
     display: block;
 }
 
