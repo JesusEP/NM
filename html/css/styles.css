@@ -193,3 +193,7 @@ body{
     background-color: white;
 }
 
+.fechabanco{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
